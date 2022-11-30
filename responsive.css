@@ -1,0 +1,178 @@
+/* Pad */
+@media only screen and (max-width: 900px) {
+
+    .cont1 {
+        display: block;
+    }
+
+    .mangata-promo {
+        text-align: center;
+    }
+
+    .mangata {
+        margin: 50px 0px 0px 170px;
+    }
+
+    .mgt-img {
+        display: block;
+        margin: 200px;
+    }
+
+    .mgt-item {
+        margin-bottom: 50px;
+        justify-items: center;
+    }
+
+    .mgt-item > figure > img {
+        margin-left: 35%;
+        margin-right: 65%;
+    }
+
+
+    /* .brc-mgt {
+        margin-left: 90px;
+    }
+
+    .rg-mgt {
+        margin-left: 90px;
+    }
+
+    .ear-mgt {
+        margin-left: 90px;
+    } */
+
+    .about-cont {
+        display: block;
+    }
+
+
+    .cont-price {
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .item-price {
+        margin-bottom: 50px;
+    }
+
+    .item-price > img {
+        margin-left: 34%;
+    }
+
+    .buy-itm {
+        margin-left: 44%;
+    }
+
+    .cont-wed {
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .ring-wed {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .data-cont {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .send-btn {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 450px) {
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .nav-container {
+        display: block;
+        justify-content: center;
+    }
+
+    .nav {
+        text-align: center;
+    }
+
+    .mangata {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .mgt-img {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 60%;
+    }
+
+    .mgt-item > figure > img {
+        margin-left: 30%;
+    }
+
+    .about-cont {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rg-about {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .head-prc {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .cont-price {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .item-price > img {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .buy-itm {
+        margin-left: 35%;
+    }
+
+    .cont-wed {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .ring-wed {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -30%;
+    }
+
+    .data-cont {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logo-foot {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}

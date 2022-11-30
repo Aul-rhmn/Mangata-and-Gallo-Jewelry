@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.bckgrnd {
+    background-image: url('img/Group\ 1.png');
+    background-size: cover;
+    height: 80vh;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-item:hover {
+    background-color: #FFACC7;
+    border-radius: 10px;
+}
+
+/* Content 1 */
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin: 20px;
+}
+
+.mangata-promo {
+    display: block;
+}
+
+.img-box {
+    margin-top: 20px;
+}
+
+.mangata {
+    height: auto;
+    width: 350px;
+}
+
+.mgt-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 50px;
+    
+}
+
+.mgt-item {
+    padding: 60px;
+    border: #FFACC7 solid;
+    border-radius: 15px;
+}
+
+.buynow {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.buynow a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mgt-item:hover {
+    box-shadow: 0px 0px 7px #FF8DC7;
+}
+
+/* Images Mangata */
+.brc-mgt {
+    height: 70px;
+    width: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rg-mgt {
+    height: 90px;
+    width: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ear-mgt {
+    height: 90px;
+    width: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.bckgrnd-img {
+    margin-top: 80px;
+}
+
+
+/* Content 2 */
+.about-cont {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.rg-about {
+    width: 350px;
+}
+
+
+/* Content 3 */
+
+.bckgrnd3 {
+    background-color: #ffeee9;
+    padding-bottom: 30px;
+}
+
+.head-prc {
+    margin-top: 100px;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+.cont-price {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item-price {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgb(179, 172, 172);
+    
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.item-price > h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-price > p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.img-prc1 {
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.img-prc2 {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.img-prc3 {
+    width: 200px;
+}
+
+.price:hover{
+    color: gold;
+}
+
+.buy-itm {
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px 25px 15px 25px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.buy-itm > a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+/* Content Wedding */
+
+.cont-wed {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    gap: 100px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgb(179, 172, 172);
+    border-radius: 15px;
+    
+}
+
+.ring-wed {
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.spcl-cont {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.spcl-cstm {
+    font-family: 'Open Sans', sans-serif;
+    color: #FF8DC7;
+    padding: 20px;
+}
+
+.spcl-capt {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.btn-custom {
+    border: #FF8DC7 solid;
+    background-color: #FFACC7;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn-custom  a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+
+/* Contact Us */
+
+.data-cont {
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 30px rgb(179, 172, 172);
+    border-radius: 15px;
+    padding-bottom: 20px;
+
+}
+
+.data-cont > h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.cont-contain {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form-data {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.label , .label > p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #353435;
+}
+
+
+
+input , textarea {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ffeee9;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px rgb(179, 172, 172) solid;
+    box-shadow: 3px 3px 3px rgb(216, 210, 210);
+    font-style: italic;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 20px;
+    width: 10%;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.send-btn > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Footer */
+.foot-sec {
+    margin-top: 250px;
+    background-color: #FF8DC7;
+}
+
+.logo-foot {
+    width: 400px;
+    margin-top: 100px;
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.foot-sec > p {
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+
+h2 > span {
+    font-family:'Open Sans' , sans-serif;
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.mgt-item > h3 {
+    color: #FF8DC7;
+    text-align: center;
+}
+
+.mangata-promo > p {
+    color: rgb(0, 0, 0);
+}
+
+.mgt-item p {
+    text-align: center;
+    font-family:'Open Sans' , sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+}
+
